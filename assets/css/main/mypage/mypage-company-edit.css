@@ -1,5 +1,6 @@
 *{
-  margin:0px;
+  /* margin:0px; */
+  max-width: 1200px;
   padding:0px;
   background-color: white;
 }
@@ -81,9 +82,9 @@
 }
 
 #company-quit{
-  margin-top:50px;
-  float:right;
-  background-color: rgba(244,7,7,0.5)
+  display: block;
+  margin: 50px 0 30px auto;
+  background-color: rgba(244,7,7,0.5);
 }
 
 .mypage-input-wrap{
