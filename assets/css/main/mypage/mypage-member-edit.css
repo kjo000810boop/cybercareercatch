@@ -1,12 +1,13 @@
 *{
-  /* margin:0px; */
-  max-width: 1200px;
+  margin:0px;
+  /* max-width: 1200px; */
   padding:0px;
   background-color: white;
 }
 
 .main-container{
-  margin:0 120px;
+  max-width:1200px;
+  margin:auto;
   padding: 70px 0px;  /* 위아래 + 좌우 */
   min-height: 700px;   /* 화면 큰 경우 대비 */
 }
