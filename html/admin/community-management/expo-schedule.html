@@ -16,12 +16,12 @@
             <div class="expoSchedule-title">관리자 페이지</div>
 
             <nav class="expoSchedule-menu1">
-                <a href="#">회원 관리</a>
+                <a href="../member-management/member-info.html">회원 관리</a>
                 <a href="../main-management/qna-management.html">메인 관리</a>
                 <a href="../community-management/expo-schedule.html">커뮤니티 관리</a>
             </nav>
 
-            <button class="expoSchedule-logout">로그아웃</button>
+            <button class="expoSchedule-logout" type="button">로그아웃</button>
 
         </header>
 
@@ -29,16 +29,22 @@
         <main class="expoSchedule-main">
 
             <aside class="expoSchedule-leftbar">
+
                 <div class="expoSchedule-left-item expoSchedule-active">
                     <a href="./expo-schedule.html">박람회 일정</a>
                 </div>
+
                 <div class="expoSchedule-left-item">
                     <a href="./community-management.html">자유 게시판</a>
                 </div>
+
                 <div class="expoSchedule-left-item">
                     <a href="./company-qna.html">기업 QnA</a>
                 </div>
+
             </aside>
+
+
             <form>
 
                 <section class="expoSchedule-content">
@@ -47,6 +53,7 @@
                     <div class="expoSchedule-tab">
 
                         <div class="expoSchedule-tab-item expoSchedule-active">박람회 일정</div>
+
                         <div class="expoSchedule-tab-item">
                             <a href="/html/admin/community-management/expodetail-schedule.html">박람회 일정 관리</a>
                         </div>
@@ -65,6 +72,7 @@
                             <div>참여기업수</div>
                             <div>진행상태</div>
                         </div>
+
 
                         <div class="expoSchedule-row">
                             <div>10</div>
@@ -194,52 +202,19 @@
                             <input type="checkbox">
                         </div>
 
-                        <div class="expoSchedule-company-row">
-                            <span>2</span>
-                            <span>사랑기업</span>
-                            <input type="checkbox">
-                        </div>
-
-                        <div class="expoSchedule-company-row">
-                            <span>3</span>
-                            <span>사랑기업</span>
-                            <input type="checkbox">
-                        </div>
-
-                        <div class="expoSchedule-company-row">
-                            <span>4</span>
-                            <span>사랑기업</span>
-                            <input type="checkbox">
-                        </div>
-
-                        <div class="expoSchedule-company-row">
-                            <span>5</span>
-                            <span>사랑기업</span>
-                            <input type="checkbox">
-                        </div>
-
-                        <div class="expoSchedule-company-row">
-                            <span>6</span>
-                            <span>사랑기업</span>
-                            <input type="checkbox">
-                        </div>
-
-                        <div class="expoSchedule-company-row">
-                            <span>7</span>
-                            <span>사랑기업</span>
-                            <input type="checkbox">
-                        </div>
-
                     </div>
 
+
                     <div class="expoSchedule-company-delete">
-                        <button class="expoSchedule-company-delBtn">선택 기업 삭제</button>
+                        <button type="button" class="expoSchedule-company-delBtn">선택 기업 삭제</button>
                     </div>
 
                 </section>
 
+            </form>
+
         </main>
-        </form>
+
     </div>
 
     <script src="/assets/js/admin/community-management/expo-schedule.js"></script>
